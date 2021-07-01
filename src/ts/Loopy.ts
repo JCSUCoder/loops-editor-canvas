@@ -125,7 +125,7 @@ export default class Loopy {
 
       input.click();
 		});
-		
+
 		subscribe("file/loaded", (data: string) => {
       this.model.deserialize(data, "default.smwks");
     });
